@@ -1,0 +1,3 @@
+# Busey_Android_App
+
+The app utilizes a Google Map for the display of bus routes and buses from UCSDbus.com. I made this app because I felt that the UCSDbus web app was too slow and not optimized for mobile devices. After using the Firebug Firefox extension, I was able to create a list of all of the HTTP endpoints that the website uses to communicate with the back-end. The endpoints respond with data in JSON format. After studying the data for each of the endpoints, I then created the logic that parses it and displays the UCSDbus data on the Google Map. The app also implements Marshmallow runtime permissions.
